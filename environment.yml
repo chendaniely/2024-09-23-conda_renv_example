@@ -1,0 +1,12 @@
+name: penguins
+channels:
+  - conda-forge
+dependencies:
+  - conda
+  - python=3.12
+  - pandas==2.2.2
+  - palmerpenguins
+  - jupyterlab
+  - pip:
+     - shiny
+     - otter-grader
